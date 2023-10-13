@@ -3,6 +3,9 @@ import string
 import typing
 from abc import ABC, abstractmethod
 from ast import literal_eval
+from warnings import warn
+
+warn("We have moved from M$ GitHub to https://codeberg.org/UniGrammar/escapelib.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
 
 from rangeslicetools.tree import RangesTree
 
